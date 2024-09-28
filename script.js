@@ -7,12 +7,6 @@
 //     console.log("Manfiy");
 // }
 
-
-
-
-
-
-
 // // 2-SAVOL KODLARI
 
 // let num = +prompt("Sonni kiriting:");
@@ -21,12 +15,6 @@
 // } else {
 //     console.log("Toq");
 // }
-
-
-
-
-
-
 
 // // 3-SAVOL KODLARI
 
@@ -41,12 +29,6 @@
 //     console.log("2-kiritilgan son 1-kiritilgan sondan katta");
 // }
 
-
-
-
-
-
-
 // // 4-SAVOL KODLARI
 
 // let tall = +prompt("Boyini kiriting:");
@@ -55,14 +37,8 @@
 // if( tall == span){
 //     console.log("Kvadrat");
 // } else{
-//     console.log("Tog'ri to'rtburchak");
+//     console.log("Togri tortburchak");
 // }
-
-
-
-
-
-
 
 // // 5-SAVOL KODLARI
 
@@ -76,18 +52,12 @@
 //     console.log("Hozir harorat nolga teng🌡️");
 // }
 
-
-
-
-
-
-
 // // 6-SAVOL KODLARI
 
-// let grade = +prompt("O'quvchini baholang:");
+// let grade = +prompt("Oquvchini baholang:");
 
 // if (grade === 5) {
-//     console.log("A'lo");
+//     console.log("Alo");
 // } else if (grade === 4) {
 //     console.log("Yaxshi");
 // } else if (grade === 3) {
@@ -95,14 +65,8 @@
 // } else if (grade === 2 || grade === 1) {
 //     console.log("Yomon");
 // } else {
-//     console.log("Noto'g'ri baho kiritildi");
+//     console.log("Notogri baho kiritildi");
 // }
-
-
-
-
-
-
 
 // // 7-SAVOL JAVOBI
 
@@ -122,12 +86,6 @@
 
 // console.log(res);
 
-
-
-
-
-
-
 // // 8-SAVOL KODLARI
 
 // let num = +prompt("Bironta istalgan sonni kiriting")
@@ -138,12 +96,6 @@
 //     console.log("Kiritilgan son 5xonali son emas");
 
 // }
-
-
-
-
-
-
 
 // // 9-SAVOL KODLARI
 
@@ -158,14 +110,8 @@
 // } else if (num === 12 || num === 1 || num === 2) {
 //     console.log("Qish");
 // } else {
-//     console.log("Noto'g'ri oy raqami kiritildi.");
+//     console.log("Notogri raqami kiritildi.");
 // }
-
-
-
-
-
-
 
 // // 10-SAVOL KODLARI
 
@@ -178,12 +124,6 @@
 // } else {
 //     console.log("Hato kun kiritildi");
 // }
-
-
-
-
-
-
 
 // // 11-SAVOL KODLARI
 
@@ -202,8 +142,51 @@
 //   console.log("Hato kiritildi");
 // }
 
-
-
-
 // // 12-SAVOL KODLARI
 
+// let hour = +prompt("Vaqtni kiriting:");
+
+// if(hour >= 8 && hour <= 18){
+//     console.log("Hozir ish vaqti");
+// } else{
+//     console.log("Tanaffus");
+// }
+
+// // 13-SAVOL KODLARI
+
+// let num = prompt("Qiymatni kiriting:");
+
+// if (num !== "" && num.length > 0) {
+//     let res = num - 0 === +num;
+//     if (res) {
+//         console.log("Bu raqam");
+//     } else {
+//         console.log("Bu raqam emas");
+//     }
+// } else {
+//     console.log("Bu raqam emas");
+// }
+
+// // 14-SAVOL JAVOBI
+
+// let num = prompt("Istalgan sonni kiriting:");
+
+// if(num >= 100){
+//     console.log("Katta son");
+// } else if(num <= 100){
+//     console.log("Kichik son");
+// } else{
+//     console.log("Notogri son kiritildi");
+// }
+
+// // 15-SAVOL JAVOBI
+
+// let young = +prompt("Yoshingizni kiriting");
+
+// if (young >= 18) {
+//   console.log("Pul to'lash kerak");
+// } else if (young <= 18) {
+//   console.log("Tekin kirish");
+// } else {
+//   console.log("Notogri yosh kiritildi");
+// }
